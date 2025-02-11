@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>SalaBlancaUPC</title>
+<meta charset="utf-8">
+<meta name="viewport" content="target-densitydpi=device-dpi, width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, minimal-ui" />
+<style> @-ms-viewport { width: device-width; } </style>
+<link rel="stylesheet" href="vendor/reset.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="multiple-scenes ">
+
+<div id="pano"></div>
+
+<div id="sceneList">
+  <ul class="scenes">
+    
+      <a href="javascript:void(0)" class="scene" data-id="0-1_vestuario">
+        <li class="text">1_Vestuario</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="1-2_ducha">
+        <li class="text">2_Ducha</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="2-3_pasillo_ducha">
+        <li class="text">3_Pasillo_Ducha</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="3-4_pasillo_litografia">
+        <li class="text">4_Pasillo_Litografia</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="4-5_litografia_entrada">
+        <li class="text">5_Litografia_Entrada</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="5-6_litografia_ventana">
+        <li class="text">6_Litografia_Ventana</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="6-7_litografia_spinner">
+        <li class="text">7_Litografia_Spinner</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="7-8_pasillo_hornos">
+        <li class="text">8_Pasillo_Hornos</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="8-9_hornos_entrada">
+        <li class="text">9_Hornos_Entrada</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="9-10_hornos_ventana">
+        <li class="text">10_Hornos_Ventana</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="10-11_servicio_hornos_entrada">
+        <li class="text">11_Servicio_Hornos_Entrada</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="11-12_servicio_hornos">
+        <li class="text">12_Servicio_Hornos</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="12-13_servicio_hornos_quimicos">
+        <li class="text">13_Servicio_Hornos_Quimicos</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="13-14_pasillo_metalizacion">
+        <li class="text">14_Pasillo_Metalizacion</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="14-15_medicion_entrada">
+        <li class="text">15_Medicion_Entrada</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="15-16_medicion_ventana">
+        <li class="text">16_Medicion_Ventana</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="16-17_metalizacion_ald">
+        <li class="text">17_Metalizacion_ALD</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="17-18_metalizacion_pecvd">
+        <li class="text">18_Metalizacion_PECVD</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="18-19_metalizacion_evaporadora">
+        <li class="text">19_Metalizacion_Evaporadora</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="19-20_metalizacion_sputtering">
+        <li class="text">20_Metalizacion_Sputtering</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="20-21_servicio_metalizacion_entrada">
+        <li class="text">21_Servicio_Metalizacion_Entrada</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="21-22_servicio_metalizacion_bombas">
+        <li class="text">22_Servicio_Metalizacion_Bombas</li>
+      </a>
+    
+  </ul>
+</div>
+
+<div id="titleBar">
+  <h1 class="sceneName"></h1>
+</div>
+
+<a href="javascript:void(0)" id="autorotateToggle">
+  <img class="icon off" src="img/play.png">
+  <img class="icon on" src="img/pause.png">
+</a>
+
+<a href="javascript:void(0)" id="fullscreenToggle">
+  <img class="icon off" src="img/fullscreen.png">
+  <img class="icon on" src="img/windowed.png">
+</a>
+
+<a href="javascript:void(0)" id="sceneListToggle">
+  <img class="icon off" src="img/expand.png">
+  <img class="icon on" src="img/collapse.png">
+</a>
+
+<a href="javascript:void(0)" id="viewUp" class="viewControlButton viewControlButton-1">
+  <img class="icon" src="img/up.png">
+</a>
+<a href="javascript:void(0)" id="viewDown" class="viewControlButton viewControlButton-2">
+  <img class="icon" src="img/down.png">
+</a>
+<a href="javascript:void(0)" id="viewLeft" class="viewControlButton viewControlButton-3">
+  <img class="icon" src="img/left.png">
+</a>
+<a href="javascript:void(0)" id="viewRight" class="viewControlButton viewControlButton-4">
+  <img class="icon" src="img/right.png">
+</a>
+<a href="javascript:void(0)" id="viewIn" class="viewControlButton viewControlButton-5">
+  <img class="icon" src="img/plus.png">
+</a>
+<a href="javascript:void(0)" id="viewOut" class="viewControlButton viewControlButton-6">
+  <img class="icon" src="img/minus.png">
+</a>
+
+<script src="vendor/screenfull.min.js" ></script>
+<script src="vendor/bowser.min.js" ></script>
+<script src="vendor/marzipano.js" ></script>
+
+<script src="data.js"></script>
+<script src="index.js"></script>
+
+</body>
+</html>
