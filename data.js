@@ -47,7 +47,7 @@ var APP_DATA = {
     },
     {
       "id": "1-dutxa",
-      "name": "Dutxa",
+      "name": "Dutxa d'aire",
       "levels": [
         {
           "tileSize": 256,
