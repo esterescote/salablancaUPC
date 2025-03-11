@@ -1,20 +1,3 @@
-/* Yaw (rotacio horitzontal de la càmera): Valor positiu giren a la dreta, Valors negatius giren a l'esquerra.
-  Exemple:
-  yaw = 0: Mira directament endavant.
-  yaw = π/2 (1.57): Mira cap a la dreta (90°).
-  yaw = -π/2 (-1.57): Mira cap a l'esquerra (-90°).
-  yaw = π (3.1416) o -π (-3.1416): Mira enrere (180°). */
-
-/* Pitch (inclinació vertical): Valors positius miren cap amunt, i valors negatius miren cap avall.
-  Exemple:
-  pitch = 0: Mira horitzontalment.
-  pitch = π/4 (0.785): Mira una mica cap amunt (45°).
-  pitch = -π/4 (-0.785): Mira una mica cap avall (-45°).
-  pitch = π/2 (1.57): Mira directament cap amunt (90°).
-  pitch = -π/2 (-1.57): Mira directament cap avall (-90°).*/
-
-/* FOV (Field of View - Camp de visió): Controla l’amplitud de la vista, com el zoom d’una càmera.*/
-
 var APP_DATA = {
   "scenes": [
     {
@@ -41,30 +24,30 @@ var APP_DATA = {
       ],
       "faceSize": 2000,
       "initialViewParameters": {
-        "yaw": 0.165748982151106,
-        "pitch": 0.07157332552524664,
-        "fov": 1.325599857056214
+        "yaw": 0.10789308103237438,
+        "pitch": 0.07377124917759659,
+        "fov": 1.5070412331994232
       },
       "linkHotspots": [
         {
-          "yaw": -0.037577780919107795,
-          "pitch": 0.13890238868120086,
+          "yaw": -0.028727189766872385,
+          "pitch": 0.1354139129105416,
           "rotation": 0,
-          "target": "1-dutxa"
+          "target": "1-dutxa-daire"
         }
       ],
       "infoHotspots": [
         {
-          "yaw": 0.25060901260403234,
-          "pitch": 0.11631377651973551,
+          "yaw": 0.19227689448155516,
+          "pitch": 0.13358612611549425,
           "title": "Vestuari",
-          "text": "La sala de vestuari d'una sala blanca és la zona de transició dissenyada per garantir que les persones que accedeixen a la sala blanca estiguin correctament <b>netes i protegides.&nbsp;</b><div><br><div>En aquesta sala, els treballadors es posen <b>roba especial</b>, com bates o vestits de protecció, guants, màscares i botes per evitar la contaminació de les sales blanques amb partícules, microorganismes o altres contaminants.</div></div>"
+          "text": "<div style=\"color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, &quot;Courier New&quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;\"><span id=\"docs-internal-guid-628a65a8-7fff-0003-00cc-64c21a8f5e70\"><span style=\"font-size: 11pt; font-family: Calibri, sans-serif; color: rgb(255, 255, 255); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; font-variant-emoji: normal; vertical-align: baseline; text-wrap-mode: wrap;\">La sala de vestuari d'una sala blanca és una zona de transició dissenyada per garantir que les persones que accedeixen a la sala blanca estiguin correctament netes i protegides. En aquesta sala, els treballadors es posen roba especial, com bates o vestits de protecció, guants, màscares i botes, per evitar la contaminació de les sales blanques amb partícules, microorganismes o altres contaminants. </span></span></div>"
         }
       ]
     },
     {
-      "id": "1-dutxa",
-      "name": "Dutxa d'aire",
+      "id": "1-dutxa-daire",
+      "name": "Dutxa d'Aire",
       "levels": [
         {
           "tileSize": 256,
@@ -86,36 +69,36 @@ var APP_DATA = {
       ],
       "faceSize": 2000,
       "initialViewParameters": {
-        "yaw": -3.050814621974313,
-        "pitch": -0.0009101893472909239,
-        "fov": 1.325599857056214
+        "yaw": 3.1214087782295614,
+        "pitch": 0.06553186290581436,
+        "fov": 1.5070412331994232
       },
       "linkHotspots": [
         {
-          "yaw": 0.00023394040041324615,
-          "pitch": 0,
-          "rotation": 0,
-          "target": "0-vestuari"
-        },
-        {
-          "yaw": -3.131368260360933,
-          "pitch": -0.012675725174748464,
+          "yaw": 3.1214087782295614,
+          "pitch": 0.06553186290581436,
           "rotation": 0,
           "target": "2-passads-dutxa"
+        },
+        {
+          "yaw": -0.022136899719420455,
+          "pitch": 0.1815830836413248,
+          "rotation": 0,
+          "target": "0-vestuari"
         }
       ],
       "infoHotspots": [
         {
-          "yaw": -1.6145768005374528,
-          "pitch": 0.34493040210497306,
+          "yaw": -1.7464731718782573,
+          "pitch": 0.14562636201291923,
           "title": "Dutxa d'aire",
-          "text": "Dispositiu utilitzat a les sales blanques i altres entorns controlats per <b>eliminar partícules</b> de pols o contaminants de la roba o el cos de les persones abans d'entrar a la zona neta.&nbsp;<div><br></div><div>Funciona mitjançant un <b>flux d'aire filtrat</b> que es projecta sobre la persona, eliminant qualsevol partícula en suspensió.</div>"
+          "text": "<span id=\"docs-internal-guid-0b783261-7fff-190d-b9a2-b4b3e4d4747a\"><span style=\"font-size: 11pt; font-family: Calibri, sans-serif; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; font-variant-emoji: normal; vertical-align: baseline; white-space-collapse: preserve;\">Dispositiu utilitzat a les sales blanques i altres entorns controlats per eliminar partícules de pols o contaminants de la roba o el cos de les persones abans d'entrar a la zona neta. Funciona mitjançant un flux d'aire filtrat que es projecta sobre la persona, eliminant qualsevol partícula en suspensió.</span></span>"
         }
       ]
     },
     {
       "id": "2-passads-dutxa",
-      "name": "Passadís dutxa",
+      "name": "Passadís Dutxa",
       "levels": [
         {
           "tileSize": 256,
@@ -137,26 +120,26 @@ var APP_DATA = {
       ],
       "faceSize": 2000,
       "initialViewParameters": {
-          "yaw": 3.2343,
-          "pitch": 0.3503,
-          "fov": 1.325599857056214
+        "yaw": 3.108552730851507,
+        "pitch": 0.0897653519404713,
+        "fov": 1.5070412331994232
       },
       "linkHotspots": [
         {
-          "yaw": 0.03185467650530782,
-          "pitch": 0.13802399682128907,
+          "yaw": -0.029047054160205477,
+          "pitch": 0.13897988600427347,
           "rotation": 0,
-          "target": "1-dutxa"
+          "target": "1-dutxa-daire"
         },
         {
-          "yaw": 1.5245132042932168,
-          "pitch": 0.5275783899335575,
+          "yaw": 1.53920412638446,
+          "pitch": 0.5906415470425568,
           "rotation": 0,
           "target": "3-passads-litografia"
         },
         {
-          "yaw": -1.546534665828709,
-          "pitch": 0.48329772706058627,
+          "yaw": -1.5834332358362389,
+          "pitch": 0.5972160305298342,
           "rotation": 0,
           "target": "13-passads-metalitzaci"
         }
@@ -165,7 +148,7 @@ var APP_DATA = {
     },
     {
       "id": "3-passads-litografia",
-      "name": "Passadís litografia",
+      "name": "Passadís Litografia",
       "levels": [
         {
           "tileSize": 256,
@@ -187,35 +170,35 @@ var APP_DATA = {
       ],
       "faceSize": 2000,
       "initialViewParameters": {
-        "yaw": 0.7268629818018049,
-        "pitch": 2,
-        "fov": 1.325599857056214
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
       },
       "linkHotspots": [
         {
-          "yaw": 0.01604411431467412,
-          "pitch": 0.11263593172711239,
+          "yaw": 0,
+          "pitch": 0,
           "rotation": 0,
           "target": "4-litografia-entrada"
         },
         {
-          "yaw": -1.6263837841800104,
-          "pitch": 0.32057231174568734,
-          "rotation": 0,
-          "target": "2-passads-dutxa"
-        },
-        {
-          "yaw": 1.580253427270141,
-          "pitch": 0.4773727009978188,
+          "yaw": 1.5761543500235042,
+          "pitch": 0.5133396567614987,
           "rotation": 0,
           "target": "7-passads-forns"
+        },
+        {
+          "yaw": -1.6503403949320568,
+          "pitch": 0.5708646785623444,
+          "rotation": 0,
+          "target": "2-passads-dutxa"
         }
       ],
       "infoHotspots": []
     },
     {
       "id": "4-litografia-entrada",
-      "name": "Litografia entrada",
+      "name": "Litografia Entrada",
       "levels": [
         {
           "tileSize": 256,
@@ -237,42 +220,48 @@ var APP_DATA = {
       ],
       "faceSize": 2000,
       "initialViewParameters": {
-        "yaw": 0.02486680864408264,
-        "pitch": 0.2552146972187135,
-        "fov": 1.325599857056214
+        "yaw": 0.16030622460633204,
+        "pitch": -0.01644305614662045,
+        "fov": 1.5070412331994232
       },
       "linkHotspots": [
         {
-          "yaw": 0.06774886971185978,
-          "pitch": 0.008635845905001105,
+          "yaw": 0.05767105583242227,
+          "pitch": 0.031429115343641456,
           "rotation": 0,
           "target": "5-litografia-finestra"
         },
         {
-          "yaw": 1.8387906575464203,
-          "pitch": 0.24943173220971104,
+          "yaw": 1.8239034872646016,
+          "pitch": 0.34839194902653503,
           "rotation": 0,
-          "target": "6-litogragia-spinner"
+          "target": "6-litografia-spinner"
         },
         {
-          "yaw": -2.9463900981485374,
-          "pitch": 0.06525041470927562,
+          "yaw": -2.9795768669664273,
+          "pitch": 0.07538886271944101,
           "rotation": 0,
           "target": "3-passads-litografia"
         }
       ],
       "infoHotspots": [
         {
-          "yaw": -1.439130586082575,
-          "pitch": 0.280807526042647,
+          "yaw": -1.4317599904970297,
+          "pitch": 0.32263693399812965,
           "title": "Alineadora",
-          "text": "Màquina utilitzada en la fabricació de dispositius amb una geometria controlada, permetent la fabricació de circuits integrats.&nbsp;<div><br></div><div>El seu principi de funcionament es basa en <b>exposar una màscara fotogràfica </b>sobre una capa de <b>material fotosensible</b> (resina).&nbsp;</div><div><br></div><div>Permet transferir patrons precisos, garantint una alta resolució en els processos de fabricació. El procés pot repetir-se varies vegades, motiu pel qual el sistema permet alinear màscares.&nbsp;</div><div><br></div><div>La resolució final dependrà de la longitud d'ona utilitzada. En aquest cas s'utilitza llum ultraviolada, permetent resolucions de l'ordre del micròmetre.</div>"
+          "text": "<span id=\"docs-internal-guid-a33de025-7fff-0b0d-ce3a-2eb7d9772da5\"><span style=\"font-size: 11pt; font-family: Calibri, sans-serif; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; font-variant-emoji: normal; vertical-align: baseline; white-space-collapse: preserve;\">Màquina utilitzada en la fabricació de dispositius amb una geometria controlada, permetent la fabricació de circuits integrats. El seu principi de funcionament es basa en&nbsp; exposar una màscara fotogràfica sobre una capa de material fotosensible (resina). Permet transferir patrons precisos, garantint una alta resolució en els processos de fabricació. El procés pot repetir-se varies vegades, motiu per el qual el sistema permet alinear màscares. La resolució final dependrà de la longitud d’ona utilitzada. En aquest cas utilitzem llum ultraviolada, permeten resolucions de l’ordre del micròmetre.</span></span>"
+        },
+        {
+          "yaw": 0.7166985715220449,
+          "pitch": 0.20929573447788918,
+          "title": "Banc litogràfic",
+          "text": "<span style=\"font-family: Calibri, sans-serif; font-size: 14.6667px; white-space-collapse: preserve;\">En aquest banc, es poden dur a terme tasques com el revelat de la resina fotosensible després de l'exposició a la llum, utilitzant dissolvents especialitzats, i netejar superfícies amb productes com acetona (per eliminar restes de resina) i isopropanol (per netejar les superfícies abans i després de les exposicions).</span>"
         }
       ]
     },
     {
       "id": "5-litografia-finestra",
-      "name": "Litografia finestra",
+      "name": "Litografia Finestra",
       "levels": [
         {
           "tileSize": 256,
@@ -294,42 +283,42 @@ var APP_DATA = {
       ],
       "faceSize": 2000,
       "initialViewParameters": {
-        "yaw": -1,
-        "pitch": 0.0009101893472891476,
-        "fov": 1.325599857056214
+        "yaw": -0.05870507014460813,
+        "pitch": 0.08009449910710487,
+        "fov": 1.5070412331994232
       },
       "linkHotspots": [
         {
-          "yaw": 2.911517192988656,
-          "pitch": -0.030266594134447544,
-          "rotation": 0,
-          "target": "6-litogragia-spinner"
-        },
-        {
-          "yaw": -2.8269933892597265,
-          "pitch": 0.08466099443540998,
+          "yaw": -2.818040021778195,
+          "pitch": 0.11758775225919038,
           "rotation": 0,
           "target": "4-litografia-entrada"
+        },
+        {
+          "yaw": 2.8482666164755415,
+          "pitch": 0.04637622478759873,
+          "rotation": 0,
+          "target": "6-litografia-spinner"
         }
       ],
       "infoHotspots": [
         {
-          "yaw": 2.3539434330020326,
-          "pitch": 0.46377193494281244,
+          "yaw": 2.246824686513838,
+          "pitch": 0.39606379048158225,
           "title": "Banc litogràfic",
-          "text": "En aquest banc, es poden dur a terme tasques com el<b> revelat de la resina fotosensible</b> després de l'exposició a la llum, utilitzant <b>dissolvents </b>especialitzats, i netejar superfícies amb productes com acetona (per eliminar restes de resina) i isopropanol (per netejar les superfícies abans i després de les exposicions)."
+          "text": "<span id=\"docs-internal-guid-aeee6b67-7fff-2362-6b48-4dba75dac5e0\"><span style=\"font-size: 11pt; font-family: Calibri, sans-serif; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; font-variant-emoji: normal; vertical-align: baseline; white-space-collapse: preserve;\">En aquest banc, es poden dur a terme tasques com el revelat de la resina fotosensible després de l'exposició a la llum, utilitzant dissolvents especialitzats, i netejar superfícies amb productes com acetona (per eliminar restes de resina) i isopropanol (per netejar les superfícies abans i després de les exposicions).</span></span>"
         },
         {
-          "yaw": 1.17534623582862,
-          "pitch": 0.14910846228792352,
-          "title": "Equip d'ultrasons",
-          "text": "Equip utilitzat per <b>netejar, agitar o processar</b> materials mitjançant ones d'ultrasons (vibracions d'alta freqüència)."
+          "yaw": 1.1238025713428623,
+          "pitch": 0.1509692114614971,
+          "title": "Banc d'ultrasons",
+          "text": "<span id=\"docs-internal-guid-e4fd42b1-7fff-f1fb-710b-54b18e459b7f\"><span style=\"font-size: 11pt; font-family: Calibri, sans-serif; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; font-variant-emoji: normal; vertical-align: baseline; white-space-collapse: preserve;\">Equip utilitzat per netejar, agitar o processar materials mitjançant ones d'ultrasons (vibracions d’alta freqüència).</span></span>"
         }
       ]
     },
     {
-      "id": "6-litogragia-spinner",
-      "name": "Litogragia spinner",
+      "id": "6-litografia-spinner",
+      "name": "Litografia Spinner",
       "levels": [
         {
           "tileSize": 256,
@@ -351,30 +340,30 @@ var APP_DATA = {
       ],
       "faceSize": 2000,
       "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
+        "yaw": -0.20943951023931717,
+        "pitch": 0.3793949957704825,
+        "fov": 1.5070412331994232
       },
       "linkHotspots": [
         {
-          "yaw": -2.190888096406079,
-          "pitch": 0.27154888220717766,
+          "yaw": -2.1908777432027264,
+          "pitch": 0.18003147725418067,
           "rotation": 0,
           "target": "4-litografia-entrada"
         }
       ],
       "infoHotspots": [
         {
-          "yaw": 0.12902986098169045,
-          "pitch": 0.7051761251885473,
+          "yaw": 0.06677757864654943,
+          "pitch": 0.6821241878456448,
           "title": "Spinner",
-          "text": "Màquina utilitzada per aplicar uniformement una capa fina de&nbsp;<b>resina fotosensible</b>&nbsp;(<i>photoresist</i>), sobre una superfície plana. Aquest procés s'anomena en anglès&nbsp;<b>spin-coating.</b>"
+          "text": "<span id=\"docs-internal-guid-9e632d93-7fff-e92e-fda0-57c35284a068\"><span style=\"font-size: 11pt; font-family: Calibri, sans-serif; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; font-variant-emoji: normal; vertical-align: baseline; white-space-collapse: preserve;\">Màquina utilitzada per aplicar uniformement una capa fina de resina fotosensible (</span><span style=\"font-size: 11pt; font-family: Calibri, sans-serif; background-color: transparent; font-style: italic; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; font-variant-emoji: normal; vertical-align: baseline; white-space-collapse: preserve;\">photoresist</span><span style=\"font-size: 11pt; font-family: Calibri, sans-serif; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; font-variant-emoji: normal; vertical-align: baseline; white-space-collapse: preserve;\">), sobre una superfície plana. Aquest procés s’anomena en anglès spin-coating. </span></span>"
         }
       ]
     },
     {
       "id": "7-passads-forns",
-      "name": "Passadís forns",
+      "name": "Passadís Forns",
       "levels": [
         {
           "tileSize": 256,
@@ -396,20 +385,20 @@ var APP_DATA = {
       ],
       "faceSize": 2000,
       "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
+        "yaw": 0.17770625111214322,
+        "pitch": 0.027400749694535875,
+        "fov": 1.5070412331994232
       },
       "linkHotspots": [
         {
-          "yaw": -0.0482802095774133,
-          "pitch": -0.0025437661560161473,
+          "yaw": -0.0594802350462853,
+          "pitch": 0.057237286104898644,
           "rotation": 0,
-          "target": "8-forns-entrada"
+          "target": "10-servei-forns-entrada"
         },
         {
-          "yaw": -3.0721127780090622,
-          "pitch": 0.4577898453282092,
+          "yaw": -3.1389501143824674,
+          "pitch": 0.5585124793426779,
           "rotation": 0,
           "target": "3-passads-litografia"
         }
@@ -418,7 +407,7 @@ var APP_DATA = {
     },
     {
       "id": "8-forns-entrada",
-      "name": "Forns entrada",
+      "name": "Forns Entrada",
       "levels": [
         {
           "tileSize": 256,
@@ -440,42 +429,42 @@ var APP_DATA = {
       ],
       "faceSize": 2000,
       "initialViewParameters": {
-        "yaw": 2.9876215850696948,
-        "pitch": 0.119449038759317,
-        "fov": 1.325599857056214
+        "yaw": 3.0461575283583553,
+        "pitch": 0.0541480873911766,
+        "fov": 1.5070412331994232
       },
       "linkHotspots": [
         {
-          "yaw": 0.7408744579894311,
-          "pitch": 0.11013291102206857,
-          "rotation": 0,
-          "target": "7-passads-forns"
-        },
-        {
-          "yaw": 3.039823116888546,
-          "pitch": -0.0015200594525808242,
+          "yaw": 3.0461575283583553,
+          "pitch": 0.0541480873911766,
           "rotation": 0,
           "target": "9-forns-finestra"
+        },
+        {
+          "yaw": 0.7439629400077781,
+          "pitch": 0.17315728395426433,
+          "rotation": 0,
+          "target": "7-passads-forns"
         }
       ],
       "infoHotspots": [
         {
-          "yaw": -0.9094360114892979,
-          "pitch": -0.17665809294125268,
-          "title": "Forn de recuits",
-          "text": "Equip utilitzat per escalfar materials en presència d'un <b>gas inert</b> (Nitrogen) a una temperatura controlada.&nbsp;<div><br></div><div>Aquest procés <b>alleuja tensions</b> internes, <b>millora la ductilitat</b> i <b>ajusta propietats</b> com la resistivitat o l'estructura cristal·lina.&nbsp;</div>"
+          "yaw": 2.2270696854070655,
+          "pitch": 0.18471674751012657,
+          "title": "Banc químic",
+          "text": "<span id=\"docs-internal-guid-d94e9369-7fff-839c-1de6-bb0afdaa0bbe\"><span style=\"font-size: 11pt; font-family: Calibri, sans-serif; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; font-variant-emoji: normal; vertical-align: baseline; white-space-collapse: preserve;\">Un banc químic és una estació de treball en una sala blanca dissenyada per manipular productes químics de manera segura i controlada.</span></span>"
         },
         {
-          "yaw": 2.308679169674045,
-          "pitch": 0.1647839024384652,
-          "title": "Banc químic",
-          "text": "Un banc químic és una estació de treball en una sala blanca dissenyada per&nbsp;<b>manipular productes químics</b>&nbsp;de manera segura i controlada."
+          "yaw": -0.9423523242343119,
+          "pitch": -0.1607593126569924,
+          "title": "Forn de recuits",
+          "text": "<span id=\"docs-internal-guid-11cb9e86-7fff-4ec1-21c1-1f0388a4bf0b\"><span style=\"font-size: 11pt; font-family: Calibri, sans-serif; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; font-variant-emoji: normal; vertical-align: baseline; white-space-collapse: preserve;\">Equip utilitzat per escalfar materials en presència d’un gas inert (Nitrogen) a una temperatura controlada. Aquest procés alleuja tensions internes, millora la ductilitat i ajusta propietats com la resistivitat o l’estructura cristal·lina.</span></span>"
         }
       ]
     },
     {
       "id": "9-forns-finestra",
-      "name": "Forns finestra",
+      "name": "Forns Finestra",
       "levels": [
         {
           "tileSize": 256,
@@ -497,48 +486,48 @@ var APP_DATA = {
       ],
       "faceSize": 2000,
       "initialViewParameters": {
-        "yaw": -1,
-        "pitch": 0.11559404710580168,
-        "fov": 1.325599857056214
+        "yaw": 0,
+        "pitch": 0,
+        "fov": 1.5070412331994232
       },
       "linkHotspots": [
         {
-          "yaw": 1.062001923498535,
-          "pitch": 0.1624049492279056,
+          "yaw": 0.9931304026238212,
+          "pitch": 0.1503613164696045,
           "rotation": 0,
           "target": "10-servei-forns-entrada"
         },
         {
-          "yaw": -2.9132445231839377,
-          "pitch": 0.0780479653782642,
+          "yaw": -2.9317607409200335,
+          "pitch": 0.07266076812701527,
           "rotation": 0,
           "target": "8-forns-entrada"
         }
       ],
       "infoHotspots": [
         {
-          "yaw": 2.127730513936662,
-          "pitch": -0.0877706679200756,
-          "title": "Forn d'oxidació",
-          "text": "Equip utilitzat per escalfar materials a alta temperatura en presència d'oxigen o gasos oxidants per formar una capa d'<b>òxid superficial</b>.<div><br></div><div>Aquest òxid tèrmic és un dielèctric de gran qualitat i s'utilitzen per a fabricar l'òxid de porta en dispositius MOSFET basats en silici.</div>"
-        },
-        {
-          "yaw": 2.1334422025416586,
-          "pitch": 0.25863286796293394,
-          "title": "Forn de difusió",
-          "text": "Equip utilitzat en la fabricació de semiconductors, per introduir <b>impureses controlades</b> (dopants) en un semiconductor, com ara el silici.&nbsp;<div><br></div><div>Mitjançant escalfament a alta temperatura i l'ús de gasos reactius, es difonen els àtoms dopants a l'interior de la xarxa cristal·lina, permetent controlar les propietats elèctriques del semiconductor (conductivitat).</div>"
-        },
-        {
-          "yaw": -1.833031251869171,
-          "pitch": 0.23185361134899019,
+          "yaw": -1.9328284771788145,
+          "pitch": 0.31661160681265876,
           "title": "Banc químic",
-          "text": "Un banc químic és una estació de treball en una sala blanca dissenyada per <b>manipular productes químics</b> de manera segura i controlada."
+          "text": "<span id=\"docs-internal-guid-d94e9369-7fff-839c-1de6-bb0afdaa0bbe\"><span style=\"font-size: 11pt; font-family: Calibri, sans-serif; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; font-variant-emoji: normal; vertical-align: baseline; white-space-collapse: preserve;\">Un banc químic és una estació de treball en una sala blanca dissenyada per manipular productes químics de manera segura i controlada.</span></span>"
+        },
+        {
+          "yaw": 2.13226350997928,
+          "pitch": -0.10054180862973894,
+          "title": "Forn d'oxidació",
+          "text": "<span id=\"docs-internal-guid-1bdfb2d8-7fff-e40e-f178-f252c0eaeed8\"><span style=\"font-size: 11pt; font-family: Calibri, sans-serif; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; font-variant-emoji: normal; vertical-align: baseline; white-space-collapse: preserve;\">Equip utilitzat per escalfar materials a alta temperatura en presència d’oxigen o gasos oxidants per formar una capa d'òxid superficial. Aquest òxid tèrmic és un dielèctric de gran qualitat i s’utilitzen per a fabricar l`òxid de porta en dispositius MOSFET basats en silici.</span></span>"
+        },
+        {
+          "yaw": 2.141415844252993,
+          "pitch": 0.34082680841352264,
+          "title": "Forn de difusió",
+          "text": "<span id=\"docs-internal-guid-ac4760f2-7fff-aa3d-1d29-7dda8a222499\"><span style=\"font-size: 11pt; font-family: Calibri, sans-serif; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; font-variant-emoji: normal; vertical-align: baseline; white-space-collapse: preserve;\">Equip utilitzat en la fabricació de semiconductors, per introduir impureses controlades (dopants) en un semiconductor, com ara el silici. Mitjançant escalfament a alta temperatura i l’ús de gasos reactius, es difonen els àtoms dopants al interior de la xarxa cristal·lina, permetent controlar les propietats elèctriques del semiconductor (conductivitat).</span></span>"
         }
       ]
     },
     {
       "id": "10-servei-forns-entrada",
-      "name": "Servei Forns entrada",
+      "name": "Servei Forns Entrada",
       "levels": [
         {
           "tileSize": 256,
@@ -560,20 +549,20 @@ var APP_DATA = {
       ],
       "faceSize": 2000,
       "initialViewParameters": {
-        "yaw": -2.449451414974231,
-        "pitch": 0.07008457974131233,
-        "fov": 1.325599857056214
+        "yaw": -2.948019772914053,
+        "pitch": 0.06323249929508279,
+        "fov": 1.5070412331994232
       },
       "linkHotspots": [
         {
-          "yaw": -2.758974778355455,
-          "pitch": 0.11379003646333885,
+          "yaw": -2.905254564369418,
+          "pitch": 0.3220562073991591,
           "rotation": 0,
           "target": "11-servei-forns"
         },
         {
-          "yaw": 0.011404023392429963,
-          "pitch": 0.026962117683112297,
+          "yaw": -0.06360016587530737,
+          "pitch": 0.1328411286547837,
           "rotation": 0,
           "target": "9-forns-finestra"
         }
@@ -582,7 +571,7 @@ var APP_DATA = {
     },
     {
       "id": "11-servei-forns",
-      "name": "Servei forns",
+      "name": "Servei Forns",
       "levels": [
         {
           "tileSize": 256,
@@ -610,23 +599,23 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": -0.7868542603550264,
-          "pitch": 0.11688881702812637,
-          "rotation": 0,
-          "target": "12-servei-forns-qumics"
-        },
-        {
-          "yaw": 0.8740900316486346,
-          "pitch": 0.09148599582357164,
+          "yaw": 0.8700238848272797,
+          "pitch": 0.1291529303221317,
           "rotation": 0,
           "target": "10-servei-forns-entrada"
+        },
+        {
+          "yaw": -0.7747218409357064,
+          "pitch": 0.1653841319989997,
+          "rotation": 0,
+          "target": "12-armaris-qumics"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "12-servei-forns-qumics",
-      "name": "Servei forns químics",
+      "id": "12-armaris-qumics",
+      "name": "Armaris Químics",
       "levels": [
         {
           "tileSize": 256,
@@ -648,14 +637,14 @@ var APP_DATA = {
       ],
       "faceSize": 2000,
       "initialViewParameters": {
-        "yaw": -0.7294233238469587,
-        "pitch": 0.023696684487019226,
-        "fov": 1.325599857056214
+        "yaw": -0.5965985055868135,
+        "pitch": 0.01264649985902011,
+        "fov": 1.5070412331994232
       },
       "linkHotspots": [
         {
-          "yaw": 0.7808207635930344,
-          "pitch": 0.10379334704851573,
+          "yaw": 0.8504886805378291,
+          "pitch": 0.18494410379592274,
           "rotation": 0,
           "target": "11-servei-forns"
         }
@@ -664,7 +653,7 @@ var APP_DATA = {
     },
     {
       "id": "13-passads-metalitzaci",
-      "name": "Passadís metalització",
+      "name": "Passadís Metalització",
       "levels": [
         {
           "tileSize": 256,
@@ -686,26 +675,26 @@ var APP_DATA = {
       ],
       "faceSize": 2000,
       "initialViewParameters": {
-        "yaw": -0.612646186414338,
-        "pitch": 1.5,
-        "fov": 1.325599857056214
+        "yaw": -0.5902386197653531,
+        "pitch": 0.1956276942060846,
+        "fov": 1.5070412331994232
       },
       "linkHotspots": [
         {
-          "yaw": 0.35440869504783024,
-          "pitch": 0.22026582204413003,
+          "yaw": 0.30465489723002825,
+          "pitch": 0.0966418225368244,
           "rotation": 0,
-          "target": "14-medici-entrada"
+          "target": "14-caracteritzaci-entrada"
         },
         {
-          "yaw": -1.5507033758968554,
-          "pitch": 0.1680512041033566,
+          "yaw": -1.5249200775310747,
+          "pitch": 0.006864875071531884,
           "rotation": 0,
-          "target": "16-metaltizaci-ald"
+          "target": "16-metalitzaci-ald"
         },
         {
-          "yaw": 1.5912411630644074,
-          "pitch": 0.481877356499016,
+          "yaw": 1.5596085267401358,
+          "pitch": 0.39414605564659944,
           "rotation": 0,
           "target": "2-passads-dutxa"
         }
@@ -713,8 +702,8 @@ var APP_DATA = {
       "infoHotspots": []
     },
     {
-      "id": "14-medici-entrada",
-      "name": "Medició entrada",
+      "id": "14-caracteritzaci-entrada",
+      "name": "Caracterització Entrada",
       "levels": [
         {
           "tileSize": 256,
@@ -736,48 +725,48 @@ var APP_DATA = {
       ],
       "faceSize": 2000,
       "initialViewParameters": {
-        "yaw": -0.0017741791537204676,
-        "pitch": 0.2939416766992622,
-        "fov": 1.325599857056214
+        "yaw": 0.07615982190520754,
+        "pitch": 0.1411788706305792,
+        "fov": 1.5070412331994232
       },
       "linkHotspots": [
         {
-          "yaw": 0.1288908235961781,
-          "pitch": 0.03504039272397108,
+          "yaw": 0.12272321257024288,
+          "pitch": 0.005209115964248667,
           "rotation": 0,
-          "target": "15-medici-finestra"
+          "target": "15-caracteritzaci-finestra"
         },
         {
-          "yaw": -3.072411512712087,
-          "pitch": 0.0016481649987074576,
+          "yaw": -3.0617591857242044,
+          "pitch": 0.0428521884576174,
           "rotation": 0,
           "target": "13-passads-metalitzaci"
         }
       ],
       "infoHotspots": [
         {
-          "yaw": 1.5995872180313961,
-          "pitch": 0.46873523404254414,
+          "yaw": 1.5387440303527624,
+          "pitch": 0.3879436261960443,
           "title": "Equip Sinton",
-          "text": "Aquest equip permet mesurar el <b>temps de vida de portadors foto-generats en el semiconductor</b>.&nbsp;<div><br></div><div>S'empra de manera habitual en el silici cristal·lí i permet controlar el temps de vida dels portadors després de cada procés tecnològic.&nbsp;</div><div><br></div><div>És un equip bàsic per a la fabricació de cèl·lules solars de silici cristal·lí.</div>"
+          "text": "<span id=\"docs-internal-guid-afed89f9-7fff-e4e3-e565-8d4d18f2860f\"><span style=\"font-size: 11pt; font-family: Calibri, sans-serif; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; font-variant-emoji: normal; vertical-align: baseline; white-space-collapse: preserve;\">Aquest equip permet mesurar&nbsp; el temps de vida de portadors fotogenerats en el semiconductor. S’empra de manera habitual en el silici cristal.li i permet controlar el temps de vida dels portadors després de cada procés tecnològic. És un equip bàsic per a la fabricació de cèl·lules solars de silici cristal·lí.</span></span>"
         },
         {
-          "yaw": -1.0305391030562028,
-          "pitch": 0.32758678223125237,
+          "yaw": -1.0629095833375466,
+          "pitch": 0.1509577538532625,
           "title": "Microscopi òptic",
-          "text": "Un microscopi òptic és un instrument que utilitza&nbsp;<b>llum visible</b>&nbsp;per&nbsp;<b>ampliar imatges</b>&nbsp;d'objectes petits, permetent la&nbsp;<b>visualització detallada</b>&nbsp;de superfícies o estructures a una&nbsp;<b>escala microscòpica</b>."
+          "text": "<span id=\"docs-internal-guid-d7d8b216-7fff-1f44-465e-df6e31e88ee1\"><span style=\"font-size: 11pt; font-family: Calibri, sans-serif; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; font-variant-emoji: normal; vertical-align: baseline; white-space-collapse: preserve;\">Un microscopi òptic és un instrument que utilitza llum visible per ampliar imatges d'objectes petits, permetent la visualització detallada de superfícies o estructures a una escala microscòpica.</span></span>"
         },
         {
-          "yaw": -1.8273265543998267,
-          "pitch": 0.364563305855091,
+          "yaw": -1.812978645229773,
+          "pitch": 0.17679376176741002,
           "title": "Lupa",
-          "text": "La lupa és una <b>lent de baixa potència</b> que es fa servir per <b>ampliar imatges</b> d'objectes petits.&nbsp;<div><br></div><div>Tot i que la seva amplificació és molt menor que la d'un microscopi òptic, la lupa és útil per <b>observacions ràpides</b> i per veure detallades estructures a mida petita, com ara imperfeccions a superfícies o components de circuïts.</div>"
+          "text": "<span id=\"docs-internal-guid-de34de5f-7fff-6759-36bb-e72262053afc\"><span style=\"font-size: 11pt; font-family: Calibri, sans-serif; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; font-variant-emoji: normal; vertical-align: baseline; white-space-collapse: preserve;\">Una lupa és una lent de baixa potència que es fa servir per ampliar imatges d'objectes petits. Tot i que la seva amplificació és molt menor que la d’un microscopi òptic, la lupa és útil per observacions ràpides i per veure detallades estructures a mida petita, com ara imperfeccions a superfícies o components de circuits.</span></span>"
         }
       ]
     },
     {
-      "id": "15-medici-finestra",
-      "name": "Medició finestra",
+      "id": "15-caracteritzaci-finestra",
+      "name": "Caracterització Finestra",
       "levels": [
         {
           "tileSize": 256,
@@ -799,48 +788,42 @@ var APP_DATA = {
       ],
       "faceSize": 2000,
       "initialViewParameters": {
-        "yaw": 0.1200,
-        "pitch": 0.15769030441795095,
-        "fov": 1.325599857056214
+        "yaw": 0.22056304553931305,
+        "pitch": -0.006323249929508279,
+        "fov": 1.5070412331994232
       },
       "linkHotspots": [
         {
-          "yaw": -3.0663499942545602,
-          "pitch": 0.09790322566461818,
+          "yaw": -3.1019713050368374,
+          "pitch": 0.05928819087908366,
           "rotation": 0,
-          "target": "14-medici-entrada"
+          "target": "14-caracteritzaci-entrada"
         }
       ],
       "infoHotspots": [
         {
-          "yaw": 1.0977327426488994,
-          "pitch": 0.4662082429901062,
+          "yaw": 1.141821402681174,
+          "pitch": 0.4132904728507931,
           "title": "Perfilòmetre",
-          "text": "Equip utilitzat per <b>mesurar el perfil o les irregularitats de capes fines</b> (&lt;1 micròmetre), proporcionant informació detallada sobre la seva <b>topografia</b>.&nbsp;<div><br></div><div>Es basa en una punta metàl·lica que ressegueix la superfície de la capa fina. Molt útil per a mesurar el gruix de la capa fina.&nbsp;</div>"
+          "text": "<span id=\"docs-internal-guid-14c59beb-7fff-8fe7-0e16-302cfe1b86ec\"><span style=\"font-size: 11pt; font-family: Calibri, sans-serif; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; font-variant-emoji: normal; vertical-align: baseline; white-space-collapse: preserve;\">Equip utilitzat per mesurar el perfil o les irregularitats de capes fines (&lt; 1 micròmetre), proporcionant informació detallada sobre la seva topografia. Es basa en una punta metàl.lica que ressegueix la superficie de la capa fina. Molt útil per a mesurar el gruix d’una capa fina.</span></span>"
         },
         {
-          "yaw": -1.1794347810322972,
-          "pitch": 0.3388533279377235,
-          "title": "El·lipsòmetre",
-          "text": "Equip utilitzat per <b>mesurar les propietats òptiques</b>, com l'índex de funcionament es basa en el canvi de la polarització de la llum quan es reflecteix sobre una superfície..."
+          "yaw": -1.1906988198153066,
+          "pitch": 0.1546996456663159,
+          "title": "<span id=\"docs-internal-guid-114a44aa-7fff-03a4-49dd-3ec2a952c510\"><span style=\"font-size: 11pt; font-family: Calibri, sans-serif; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; font-variant-emoji: normal; vertical-align: baseline; white-space-collapse: preserve;\">El·lipsòmetre</span></span>",
+          "text": "<span id=\"docs-internal-guid-69eed617-7fff-21a0-0890-a78fc6f227ef\"><span style=\"font-size: 11pt; font-family: Calibri, sans-serif; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; font-variant-emoji: normal; vertical-align: baseline; white-space-collapse: preserve;\">Equip utilitzat per mesurar les propietats òptiques, com l'índex de refracció i el gruix de les capes fines de materials. El principi de funcionament es basa en el canvi de de la polarització de la llum quan es reflecteix sobre una superficie…</span></span>"
         },
         {
-          "yaw": -2.0491926723032847,
-          "pitch": 0.35884126797396476,
+          "yaw": -2.030921935507095,
+          "pitch": 0.2090638184209137,
           "title": "Equip de 4 puntes",
-          "text": "Equip utilitzat per conèixer la resistència de quadre (<span id=\"docs-internal-guid-4c23d27f-7fff-9130-a3fb-e6b666f3af6f\"><span style=\"font-size: 11pt; font-family: Calibri, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-style: italic; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; font-variant-emoji: normal; vertical-align: baseline; white-space-collapse: preserve;\">R</span><span style=\"font-size: 11pt; font-family: Calibri, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; font-variant-emoji: normal; vertical-align: baseline; white-space-collapse: preserve;\"><span style=\"font-size:0.6em;vertical-align:sub;\">sh</span></span></span>) d'un material.&nbsp;&nbsp;"
-        },
-        {
-          "yaw": -2.315825663452669,
-          "pitch": 0.25274662341384513,
-          "title": "Microscopi òptic",
-          "text": "Un microscopi òptic és un instrument que utilitza&nbsp;<b>llum visible</b>&nbsp;per&nbsp;<b>ampliar imatges</b>&nbsp;d'objectes petits, permetent la&nbsp;<b>visualització detallada</b>&nbsp;de superfícies o estructures a una&nbsp;<b>escala microscòpica</b>."
+          "text": "<span id=\"docs-internal-guid-54e400e8-7fff-9480-1f35-d0d64f3bfd30\"><span style=\"font-size: 11pt; font-family: Calibri, sans-serif; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; font-variant-emoji: normal; vertical-align: baseline; white-space-collapse: preserve;\">Equip utilitzat per conèixer la resistència de quadre (</span><span style=\"font-size: 11pt; font-family: Calibri, sans-serif; background-color: transparent; font-style: italic; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; font-variant-emoji: normal; vertical-align: baseline; white-space-collapse: preserve;\">R</span><span style=\"font-size: 11pt; font-family: Calibri, sans-serif; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; font-variant-emoji: normal; vertical-align: baseline; white-space-collapse: preserve;\"><span style=\"font-size:0.6em;vertical-align:sub;\">sh</span></span><span style=\"font-size: 11pt; font-family: Calibri, sans-serif; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; font-variant-emoji: normal; vertical-align: baseline; white-space-collapse: preserve;\">) d’un material.</span></span>"
         }
       ]
     },
     {
-      "id": "16-metaltizaci-ald",
-      "name": "Metaltizació ALD",
+      "id": "16-metalitzaci-ald",
+      "name": "Metalització ALD",
       "levels": [
         {
           "tileSize": 256,
@@ -862,48 +845,48 @@ var APP_DATA = {
       ],
       "faceSize": 2000,
       "initialViewParameters": {
-        "yaw": 0.003561896432636047,
-        "pitch": 0.14591652851837011,
-        "fov": 1.325599857056214
+        "yaw": 0.71875676662148,
+        "pitch": 0.2170982475797807,
+        "fov": 1.5070412331994232
       },
       "linkHotspots": [
         {
-          "yaw": 0.9764926186697114,
-          "pitch": 0.03334192107374356,
-          "rotation": 0,
-          "target": "18-metaltizaci-evaporadora"
-        },
-        {
-          "yaw": 2.672951471634528,
-          "pitch": 0.1812705229479672,
+          "yaw": 2.70643570564786,
+          "pitch": 0.144718060206948,
           "rotation": 0,
           "target": "13-passads-metalitzaci"
         },
         {
-          "yaw": -0.9962490817213734,
-          "pitch": 0.16290072327591787,
+          "yaw": -0.9198996441431184,
+          "pitch": 0.19197899856948197,
           "rotation": 0,
-          "target": "17-metaltizaci-pecvd"
+          "target": "17-metalitzaci-pecvd"
         },
         {
-          "yaw": 0.020115720614899857,
-          "pitch": 0.12264801454729835,
+          "yaw": 0.07073847847605208,
+          "pitch": 0.12241921320332949,
           "rotation": 0,
-          "target": "19-metaltizaci-sputtering"
+          "target": "19-metalitzaci-sputtering"
+        },
+        {
+          "yaw": 0.995648583795969,
+          "pitch": 0.10967783450042567,
+          "rotation": 0,
+          "target": "18-metalitzaci-evaporadora"
         }
       ],
       "infoHotspots": [
         {
-          "yaw": 1.3083609573163013,
-          "pitch": 0.49139314416317426,
+          "yaw": 1.6185585099213933,
+          "pitch": 0.28631926109233063,
           "title": "Atomic Layer Deposition (ALD)",
-          "text": "És una tècnica de <b>dipòsit de pel·lícules fines</b> a partir de reaccions químiques controlades a escala atòmica.<div><br></div><div>A través d'aquest procés, s'aconsegueixen capes molt fines, uniformes, conformals i amb una alta precisió en el control del gruix, ideal per la <b>fabricació de dispositius semiconductors.&nbsp;</b></div><div><br></div><div>El procés es realitza a l'interior d'una <b>cambra d'alt buit</b> (10-6 mbar) i no es considera un procés CVD (<i>Chemical Vapour Deposition</i>).&nbsp;</div><div><br></div><div>En un procés CVD es produeixen reaccions químiques entre els diferents compostos presents a la cambra abans de formar la capa fina.</div>"
+          "text": "<span id=\"docs-internal-guid-c5f97b07-7fff-39f6-16f6-08a73478775c\"><span style=\"font-size: 11pt; font-family: Calibri, sans-serif; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; font-variant-emoji: normal; vertical-align: baseline; white-space-collapse: preserve;\">És una tècnica de&nbsp; dipòsit de pel·lícules fines a partir de reaccions químiques controlades a escala atòmica. A través d'aquest procés, s'aconsegueixen capes molt fines, uniformes, conformals i amb una alta precisió en el control del gruix, ideal per la fabricació de dispositius semiconductors. El procés es realitza a l’interior d’una cambra d`alt buit (10-6 mbar)- No es considera un procés CVD (Chemical Vapour Deposition). En un procés CVD es produeixen reaccions químiques entre els diferents compostos presents a la cambra abans de formar la capa fina.</span></span>"
         }
       ]
     },
     {
-      "id": "17-metaltizaci-pecvd",
-      "name": "Metaltizació PECVD",
+      "id": "17-metalitzaci-pecvd",
+      "name": "Metalització PECVD",
       "levels": [
         {
           "tileSize": 256,
@@ -925,48 +908,42 @@ var APP_DATA = {
       ],
       "faceSize": 2000,
       "initialViewParameters": {
-        "yaw": 0.09000107818859249,
-        "pitch": 0.37178738921285337,
-        "fov": 1.325599857056214
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
       },
       "linkHotspots": [
         {
-          "yaw": -2.0799556282923284,
-          "pitch": 0.04343477105817506,
+          "yaw": -2.245209391679712,
+          "pitch": 0.1358707385841047,
           "rotation": 0,
-          "target": "16-metaltizaci-ald"
+          "target": "16-metalitzaci-ald"
         },
         {
-          "yaw": 2.9931913897962428,
-          "pitch": -0.0025230126636692773,
+          "yaw": 3.051993724317981,
+          "pitch": 0.07663784098626003,
           "rotation": 0,
-          "target": "18-metaltizaci-evaporadora"
+          "target": "18-metalitzaci-evaporadora"
         },
         {
-          "yaw": 1.9533741763965278,
-          "pitch": 0.07004713430491805,
+          "yaw": 1.8714184242575689,
+          "pitch": 0.10073900500716526,
           "rotation": 0,
-          "target": "19-metaltizaci-sputtering"
+          "target": "19-metalitzaci-sputtering"
         }
       ],
       "infoHotspots": [
         {
-          "yaw": -2.6039388942580715,
-          "pitch": 0.1993654317913638,
-          "title": "Atomic Layer Deposition (ALD)",
-          "text": "És una tècnica de&nbsp;<b>dipòsit de pel·lícules fines</b>&nbsp;a partir de reaccions químiques controlades a escala atòmica.<div><br></div><div>A través d'aquest procés, s'aconsegueixen capes molt fines, uniformes, conformals i amb una alta precisió en el control del gruix, ideal per la&nbsp;<b>fabricació de dispositius semiconductors.&nbsp;</b></div><div><br></div><div>El procés es realitza a l'interior d'una&nbsp;<b>cambra d'alt buit</b>&nbsp;(10-6 mbar) i no es considera un procés CVD (<i>Chemical Vapour Deposition</i>).&nbsp;</div><div><br></div><div>En un procés CVD es produeixen reaccions químiques entre els diferents compostos presents a la cambra abans de formar la capa fina.</div>"
-        },
-        {
-          "yaw": -0.15169535687849312,
-          "pitch": 0.23327906823029565,
+          "yaw": -0.1993881112341782,
+          "pitch": 0.27812749720375507,
           "title": "Plasma Enhanced Chemical Vapour Deposition (PECVD)",
-          "text": "És un sistema utilitzat per <b>dipositar pel·lícules fines</b> a partir de <b>precursors gasosos</b> mitjançant un procés químic, procés activat per un <b>plasma </b>de radiofreqüència a 13.56 MHz.&nbsp;<div><br></div><div>És l'equip utilitzat per dipositar el silici amorf hidrogenat (a-Si:H).</div><div><br></div><div>El<b> a-Si:H</b> és el semiconductor que s'utilitza per fabricar els <b>transistors en capa fina</b> (<i>Thin-Film Transistor</i>, TFT) que acompanya a tots els píxels de les pantalles de mòbil i ordinadors.</div>"
+          "text": "<span id=\"docs-internal-guid-0d46c628-7fff-8e2d-944d-2e82f252f056\"><span style=\"font-size: 11pt; font-family: Calibri, sans-serif; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; font-variant-emoji: normal; vertical-align: baseline; white-space-collapse: preserve;\">És un sistema utilitzat per dipositar pel·lícules fines a partir de precursors gasosos mitjançant un procés químic, procés activat per un plasma de radiofreqüència a 13.56 MHz. És l’equip utilitzat per a dipositar el silici amorf hidrogenat (a-Si:H). El a-Si:H és el semiconductor que s’utilitza per a fabricar els transistors en capa fina (Thin-Film Transistor TFT) que acompanya a tots els píxels de les pantalles de mòbil i ordinadors.</span></span>"
         }
       ]
     },
     {
-      "id": "18-metaltizaci-evaporadora",
-      "name": "Metaltizació evaporadora",
+      "id": "18-metalitzaci-evaporadora",
+      "name": "Metalització Evaporadora",
       "levels": [
         {
           "tileSize": 256,
@@ -988,54 +965,42 @@ var APP_DATA = {
       ],
       "faceSize": 2000,
       "initialViewParameters": {
-        "yaw": -0.683515755222599,
-        "pitch": 0.24894648844545486,
-        "fov": 1.325599857056214
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
       },
       "linkHotspots": [
         {
-          "yaw": 1.5353622299930354,
-          "pitch": 0.11633146311965703,
+          "yaw": 1.6582251387241635,
+          "pitch": 0.25942241615956974,
           "rotation": 0,
-          "target": "16-metaltizaci-ald"
+          "target": "16-metalitzaci-ald"
         },
         {
-          "yaw": -2.1420011522568014,
-          "pitch": 0.08896195363850978,
+          "yaw": 2.7756267444732394,
+          "pitch": 0.18762763684548212,
           "rotation": 0,
-          "target": "19-metaltizaci-sputtering"
+          "target": "17-metalitzaci-pecvd"
         },
         {
-          "yaw": 2.877799818071244,
-          "pitch": 0.09773870138280927,
+          "yaw": -2.364321190012845,
+          "pitch": 0.12230399588196406,
           "rotation": 0,
-          "target": "17-metaltizaci-pecvd"
+          "target": "19-metalitzaci-sputtering"
         }
       ],
       "infoHotspots": [
         {
-          "yaw": 1.2377137518742334,
-          "pitch": 0.2074072142583212,
-          "title": "Atomic Layer Deposition (ALD)",
-          "text": "És una tècnica de&nbsp;<b>dipòsit de pel·lícules fines</b>&nbsp;a partir de reaccions químiques controlades a escala atòmica.<div><br></div><div>A través d'aquest procés, s'aconsegueixen capes molt fines, uniformes, conformals i amb una alta precisió en el control del gruix, ideal per la&nbsp;<b>fabricació de dispositius semiconductors.&nbsp;</b></div><div><br></div><div>El procés es realitza a l'interior d'una&nbsp;<b>cambra d'alt buit</b>&nbsp;(10-6 mbar) i no es considera un procés CVD (<i>Chemical Vapour Deposition</i>).&nbsp;</div><div><br></div><div>En un procés CVD es produeixen reaccions químiques entre els diferents compostos presents a la cambra abans de formar la capa fina.</div>"
-        },
-        {
-          "yaw": -0.6348256530737739,
-          "pitch": -0.06984968449995499,
+          "yaw": -0.48744724568135034,
+          "pitch": -0.27567485293072735,
           "title": "Evaporadora tèrmica",
-          "text": "Equip utilitzat per <b>dipositar materials a una superfície </b>mitjançant la tècnica<b> d'evaporació o sublimació tèrmica.&nbsp;</b><div><br></div><div>El procés es fa sota condicions d'alt buit (de l'ordre de 10-6 mbar) a l'interior d'una cambra de buit.&nbsp;</div><div><br></div><div>En aquest procés, el material s'escalfa passant <b>d'estat sòlid a líquid i de líquid a gas</b> (evaporació tèrmica), o bé <b>d'estat sòlid a gas</b> (sublimació) recobrint tota la cambra amb una capa fina.</div><div><br></div><div>És un procés de dipòsit <b>no conformal</b>. Es considera un procés PVD (<i>Phisical Vapour Deposition</i>) en el que no hi ha reaccions químiques entre els diferents compostos presents a la cambra abans de formar la capa fina.</div>"
-        },
-        {
-          "yaw": -2.4541020910120217,
-          "pitch": 0.18136492940918814,
-          "title": "Polvorització catòdica (<i>Sputtering</i>)",
-          "text": "Equip de dipòsit molt versàtil que permet el&nbsp;<b>dipòsit de capes fines conformals.</b>&nbsp;<div><br></div><div>Es basa en arrencament de material d'un&nbsp;<i>target&nbsp;</i>(<b>polvorització</b>) que es diposita sobre el substrat.&nbsp;</div><div><br></div><div>Aquest arrencament sol realitzar-se a partir del bombardeig d'ions (Argó).&nbsp;</div><div><br></div><div>Per facilitar el procés es sol utilitzar un imant que concentra el bombardeig d'ions sobre el&nbsp;<i>target&nbsp;</i>(polvorització catòdica, o&nbsp;<i>magnetron sputtering</i>).&nbsp;</div><div><br></div><div>És un procés PVD i és realitzat en condicions d'alt buit (10-6 mbar).</div>"
+          "text": "<span id=\"docs-internal-guid-34a4fbf6-7fff-d400-51ea-a065603d412a\"><span style=\"font-size: 11pt; font-family: Calibri, sans-serif; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; font-variant-emoji: normal; vertical-align: baseline; white-space-collapse: preserve;\">Equip utilitzat per dipositar materials a una superfície mitjançant la tècnica d’evaporació o sublimació tèrmica.&nbsp; El procés es fa sota condicions d’alt buit (de l’ordre de 10-6 mbar) a l’interior d’una cambra de buit . En aquest procés, el material s’escalfa passant d’estat sòlid a líquid i de líquid a gas (evaporació tèrmica), o bé d’estat sòlid a gas (sublimació) recobrint tota la càmara amb una capa fina. És un procés de dipòsit no conformal. Es considera un procés PVD (Physical Vapour Deposition) en el que no hi han reaccions reaccions químiques entre els diferents compostos presents a la cambra abans de formar la capa fina.</span></span>"
         }
       ]
     },
     {
-      "id": "19-metaltizaci-sputtering",
-      "name": "Metaltizació sputtering",
+      "id": "19-metalitzaci-sputtering",
+      "name": "Metalització Sputtering",
       "levels": [
         {
           "tileSize": 256,
@@ -1057,54 +1022,42 @@ var APP_DATA = {
       ],
       "faceSize": 2000,
       "initialViewParameters": {
-        "yaw": -0.5289542403451701,
-        "pitch": 0.17771447005834062,
-        "fov": 1.325599857056214
+        "yaw": -0.243381348079863,
+        "pitch": 0.035831749600546914,
+        "fov": 1.5070412331994232
       },
       "linkHotspots": [
         {
-          "yaw": 0.30787109996600215,
-          "pitch": 0.08142940624443007,
+          "yaw": 0.3193471819015592,
+          "pitch": 0.09933729309346795,
           "rotation": 0,
-          "target": "20-servei-metaltizaci-"
+          "target": "20-servei-metalitzaci"
         },
         {
-          "yaw": -2.7773393259115977,
-          "pitch": 0.17366466551019322,
+          "yaw": -2.8201728692907118,
+          "pitch": 0.07361829337341774,
           "rotation": 0,
-          "target": "18-metaltizaci-evaporadora"
+          "target": "18-metalitzaci-evaporadora"
         },
         {
-          "yaw": -2.151066629036441,
-          "pitch": 0.020577291039067802,
+          "yaw": -2.118589713569616,
+          "pitch": 0.0581119114385551,
           "rotation": 0,
-          "target": "16-metaltizaci-ald"
-        },
-        {
-          "yaw": -1.3576823840652814,
-          "pitch": 0.03166871521887771,
-          "rotation": 0,
-          "target": "17-metaltizaci-pecvd"
+          "target": "16-metalitzaci-ald"
         }
       ],
       "infoHotspots": [
         {
-          "yaw": -2.9682038616897906,
-          "pitch": -0.01553595675666486,
-          "title": "Evaporadora tèrmica",
-          "text": "Equip utilitzat per&nbsp;<b>dipositar materials a una superfície&nbsp;</b>mitjançant la tècnica<b>&nbsp;d'evaporació o sublimació tèrmica.&nbsp;</b><div><br></div><div>El procés es fa sota condicions d'alt buit (de l'ordre de 10-6 mbar) a l'interior d'una cambra de buit.&nbsp;</div><div><br></div><div>En aquest procés, el material s'escalfa passant&nbsp;<b>d'estat sòlid a líquid i de líquid a gas</b>&nbsp;(evaporació tèrmica), o bé&nbsp;<b>d'estat sòlid a gas</b>&nbsp;(sublimació) recobrint tota la cambra amb una capa fina.</div><div><br></div><div>És un procés de dipòsit&nbsp;<b>no conformal</b>. Es considera un procés PVD (<i>Phisical Vapour Deposition</i>) en el que no hi ha reaccions químiques entre els diferents compostos presents a la cambra abans de formar la capa fina.</div>"
-        },
-        {
-          "yaw": -0.8485375181409367,
-          "pitch": 0.16904487453635397,
-          "title": "Polvorització catòdica (<i>Sputtering</i>)",
-          "text": "Equip de dipòsit molt versàtil que permet el <b>dipòsit de capes fines conformals.</b>&nbsp;<div><br></div><div>Es basa en arrencament de material d'un <i>target </i>(<b>polvorització</b>) que es diposita sobre el substrat.&nbsp;</div><div><br></div><div>Aquest arrencament sol realitzar-se a partir del bombardeig d'ions (Argó).&nbsp;</div><div><br></div><div>Per facilitar el procés es sol utilitzar un imant que concentra el bombardeig d'ions sobre el <i>target </i>(polvorització catòdica, o <i>magnetron sputtering</i>).&nbsp;</div><div><br></div><div>És un procés PVD i és realitzat en condicions d'alt buit (10-6 mbar).</div>"
+          "yaw": -0.9903128370300784,
+          "pitch": -0.058992116315573995,
+          "title": "Polvorització catòdica (Sputtering)",
+          "text": "<span id=\"docs-internal-guid-d8304e4c-7fff-a802-1905-f26f44eed034\"><span style=\"font-size: 11pt; font-family: Calibri, sans-serif; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; font-variant-emoji: normal; vertical-align: baseline; white-space-collapse: preserve;\">Equip de dipòsit molt versàtil que permet el dipòsit de capes fines conformals. Es basa en arrencament de material d’un target (polvorització) que es diposita sobre el substrat. Aquest arrencament sol realitzar-se a partir del bombardeig d’ions (Argó). Per facilitar el procés es sol utilitzar un imant que concentra el bombardeig d’ions sobre el target (polvorització catòdica, o </span><span style=\"font-size: 11pt; font-family: Calibri, sans-serif; background-color: transparent; font-style: italic; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; font-variant-emoji: normal; vertical-align: baseline; white-space-collapse: preserve;\">magnetron sputtering</span><span style=\"font-size: 11pt; font-family: Calibri, sans-serif; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; font-variant-emoji: normal; vertical-align: baseline; white-space-collapse: preserve;\">). Es un procés PVD i és realitzat en condicions d’alt buit (10-6 mbar).</span></span>"
         }
       ]
     },
     {
-      "id": "20-servei-metaltizaci-",
-      "name": "Servei metaltizació ",
+      "id": "20-servei-metalitzaci",
+      "name": "Servei Metalització",
       "levels": [
         {
           "tileSize": 256,
@@ -1126,29 +1079,29 @@ var APP_DATA = {
       ],
       "faceSize": 2000,
       "initialViewParameters": {
-        "yaw": 1.699056095427193,
-        "pitch": 0.1416371503445255,
-        "fov": 1.325599857056214
+        "yaw": 1.5817049662602907,
+        "pitch": 0.09120808989230156,
+        "fov": 1.5070412331994232
       },
       "linkHotspots": [
         {
-          "yaw": -0.05843940164732686,
-          "pitch": 0.11513895243215622,
+          "yaw": -0.06855236813749421,
+          "pitch": 0.31602411932042074,
           "rotation": 0,
-          "target": "19-metaltizaci-sputtering"
+          "target": "19-metalitzaci-sputtering"
         },
         {
-          "yaw": 1.6223565708843228,
-          "pitch": 0.18756261854115763,
+          "yaw": 1.5817049662602907,
+          "pitch": 0.09120808989230156,
           "rotation": 0,
-          "target": "21-servei-metaltizaci-bombes"
+          "target": "21-servei-metalitzaci-bombes"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "21-servei-metaltizaci-bombes",
-      "name": "Servei metaltizació bombes",
+      "id": "21-servei-metalitzaci-bombes",
+      "name": "Servei Metalització Bombes",
       "levels": [
         {
           "tileSize": 256,
@@ -1170,26 +1123,26 @@ var APP_DATA = {
       ],
       "faceSize": 2000,
       "initialViewParameters": {
-        "yaw": 0.7551220437200001,
-        "pitch": 0.24279300838955464,
-        "fov": 1.325599857056214
+        "yaw": 0.7425529266843007,
+        "pitch": 0.08430999906011039,
+        "fov": 1.5070412331994232
       },
       "linkHotspots": [
         {
-          "yaw": -2.3447396092631454,
-          "pitch": 0.15393463541253638,
+          "yaw": -2.4156991052635313,
+          "pitch": 0.13000702808845688,
           "rotation": 0,
-          "target": "20-servei-metaltizaci-"
+          "target": "20-servei-metalitzaci"
         }
       ],
       "infoHotspots": []
     }
   ],
-  "name": "SalaBlancaUPC",
+  "name": "Project Title",
   "settings": {
     "mouseViewMode": "drag",
     "autorotateEnabled": false,
-    "fullscreenButton": true,
-    "viewControlButtons": true
+    "fullscreenButton": false,
+    "viewControlButtons": false
   }
 };
