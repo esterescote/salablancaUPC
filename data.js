@@ -1138,11 +1138,11 @@ var APP_DATA = {
       "infoHotspots": []
     }
   ],
-  "name": "Project Title",
+  "name": "TourSalaBlancaUPC",
   "settings": {
     "mouseViewMode": "drag",
     "autorotateEnabled": false,
-    "fullscreenButton": false,
-    "viewControlButtons": false
+    "fullscreenButton": true,
+    "viewControlButtons": true
   }
 };
