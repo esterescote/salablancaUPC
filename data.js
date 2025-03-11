@@ -1,3 +1,20 @@
+/* Yaw (rotacio horitzontal de la càmera): Valor positiu giren a la dreta, Valors negatius giren a l'esquerra.
+  Exemple:
+  yaw = 0: Mira directament endavant.
+  yaw = π/2 (1.57): Mira cap a la dreta (90°).
+  yaw = -π/2 (-1.57): Mira cap a l'esquerra (-90°).
+  yaw = π (3.1416) o -π (-3.1416): Mira enrere (180°). */
+
+/* Pitch (inclinació vertical): Valors positius miren cap amunt, i valors negatius miren cap avall.
+  Exemple:
+  pitch = 0: Mira horitzontalment.
+  pitch = π/4 (0.785): Mira una mica cap amunt (45°).
+  pitch = -π/4 (-0.785): Mira una mica cap avall (-45°).
+  pitch = π/2 (1.57): Mira directament cap amunt (90°).
+  pitch = -π/2 (-1.57): Mira directament cap avall (-90°).*/
+
+/* FOV (Field of View - Camp de visió): Controla l’amplitud de la vista, com el zoom d’una càmera.*/
+
 var APP_DATA = {
   "scenes": [
     {
@@ -121,7 +138,7 @@ var APP_DATA = {
       "faceSize": 2000,
       "initialViewParameters": {
           "yaw": 3.2343,
-          "pitch": 0.30029327301218345,
+          "pitch": 0.3503,
           "fov": 1.325599857056214
       },
       "linkHotspots": [
@@ -171,7 +188,7 @@ var APP_DATA = {
       "faceSize": 2000,
       "initialViewParameters": {
         "yaw": 0.7268629818018049,
-        "pitch": 0.5129449840823046,
+        "pitch": 0.6129,
         "fov": 1.325599857056214
       },
       "linkHotspots": [
@@ -277,7 +294,7 @@ var APP_DATA = {
       ],
       "faceSize": 2000,
       "initialViewParameters": {
-        "yaw": 0.3295,
+        "yaw": 0.1295,
         "pitch": 0.0009101893472891476,
         "fov": 1.325599857056214
       },
@@ -480,7 +497,7 @@ var APP_DATA = {
       ],
       "faceSize": 2000,
       "initialViewParameters": {
-        "yaw": 2.125988323771134,
+        "yaw": 0.3809,
         "pitch": 0.11559404710580168,
         "fov": 1.325599857056214
       },
@@ -670,7 +687,7 @@ var APP_DATA = {
       "faceSize": 2000,
       "initialViewParameters": {
         "yaw": -0.612646186414338,
-        "pitch": 0.26281717402992477,
+        "pitch": 0.2828,
         "fov": 1.325599857056214
       },
       "linkHotspots": [
